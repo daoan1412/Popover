@@ -251,7 +251,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PopoverExample/Pods-PopoverExample-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-PopoverExample/Pods-PopoverExample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Popover/Popover.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -260,7 +260,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopoverExample/Pods-PopoverExample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PopoverExample/Pods-PopoverExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AA2E1EE836D2B226FCD44825 /* [CP] Check Pods Manifest.lock */ = {
