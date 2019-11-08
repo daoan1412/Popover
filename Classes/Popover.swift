@@ -95,11 +95,6 @@ open class Popover: UIView {
     fatalError("init(coder:) has not been implemented")
   }
 
-  override open func layoutSubviews() {
-    super.layoutSubviews()
-    self.contentView.frame = self.bounds
-  }
-
   open func showAsDialog(_ contentView: UIView) {
     guard let rootView = UIApplication.shared.keyWindow else {
       return
